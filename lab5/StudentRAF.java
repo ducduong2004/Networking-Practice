@@ -29,7 +29,7 @@ public class StudentRAF {
             raf.writeLong(getSize(st));
             raf.seek(raf.length());
             
-            int id = st.getId();
+            int id = st.getId();    
             String name = st.getName();
             int bYear = st.getBYear();
             double grade = st.getGrade();
