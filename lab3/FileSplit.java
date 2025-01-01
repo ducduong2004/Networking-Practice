@@ -2,8 +2,6 @@ package lab3;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.io.IOException;
 
 public class FileSplit {
