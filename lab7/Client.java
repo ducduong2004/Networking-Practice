@@ -2,7 +2,6 @@ package lab7;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
-import java.io.DataOutput;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -37,7 +36,6 @@ public class Client {
             String command = stringTokenizer.nextToken();
             String source = stringTokenizer.nextToken();
             source = "C:\\Users\\admin\\Desktop\\Study\\Môn học\\ltm\\testingZone\\unpacked.pdf";
-            String destination = stringTokenizer.nextToken();
 
 
             if(command.equalsIgnoreCase("upload")) {

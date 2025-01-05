@@ -1,15 +1,11 @@
 package lab7;
 
-import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.StringTokenizer;
 
@@ -43,7 +39,6 @@ public class ServerThread extends Thread {
                 StringTokenizer stringTokenizer = new StringTokenizer(line, "\t");
 
                 String command = stringTokenizer.nextToken();
-                String source = stringTokenizer.nextToken();
                 String destination = stringTokenizer.nextToken();
                 destination = "C:\\Users\\admin\\Desktop\\Study\\Môn học\\ltm\\testingZone\\copy.pdf";
                 
