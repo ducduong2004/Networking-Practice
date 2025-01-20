@@ -1,4 +1,4 @@
-package denamngoai;
+package lab10;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

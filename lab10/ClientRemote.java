@@ -1,4 +1,4 @@
-package denamngoai;
+package lab10;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,8 +9,6 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.List;
 import java.util.StringTokenizer;
-
-import org.hsqldb.rights.User;
 
 public class ClientRemote {
 	public static void main(String[] args) throws NotBoundException, IOException {

@@ -1,4 +1,4 @@
-package denamngoai;
+package lab10;
 
 import java.rmi.RemoteException;
 import java.sql.Connection;
